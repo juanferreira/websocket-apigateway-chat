@@ -6,7 +6,7 @@ const CHATCONNECTION_TABLE = 'chatIdTable';
 
 const successfullResponse = {
   statusCode: 200,
-  body: 'everything is alright'
+  body: 'Ok'
 };
 
 module.exports.connectionHandler = async (event, context, callback) => {
